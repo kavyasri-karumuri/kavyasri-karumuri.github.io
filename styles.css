@@ -1,0 +1,40 @@
+
+body {
+  font-family: 'Times New Roman', serif;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+body {
+  background-color: #f4f4f4; 
+}
+
+.content {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.videos {
+  text-align: center;
+}
+
+.sidebar {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #333;
+}

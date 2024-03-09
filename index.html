@@ -1,20 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
 
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You Page</title>
+  <style>
+ </head>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
 
-	<!--- Code above this line will not be displayed on the browser --> 
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+    }
 
-	<body>
+    h1 {
+      font-style: italic;
+      font-weight: bold;
+      color: lightblue;
+      padding: 10px;
+      margin: 0;
+    }
 
-		<p> Hello world! My name is Kavya </p>
+    a {
+      text-decoration: underline;
+      color: lightblue;
+      margin: 10px;
+    }
 
-	</body>
+    h2 {
+      color: lightpink;
+    }
+
+    .introduction,
+    .resources {
+      margin: 20px;
+      text-align: center;
+    }
+
+    .introduction p {
+      font-family: 'Georgia', serif;
+      /* Use Georgia as the serif font with "serif" as fallback */
+    }
+
+    .activity-list {
+      text-align: center;
+      list-style: none;
+      padding: 0;
+    }
+
+    .activity-list li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>For You Page &#10084;</h1>
+    <nav>
+      <a href="aboutme.html">About Me</a>
+    </nav>
+  </header>
+
+  <section class="introduction">
+    <h2>Introduction</h2>
+    <p>In a world filled with chaos and constant hustle,
+      it’s often hard to find time to sit down, give yourself attention,
+      and put yourself first.<br> It’s essential, especially as college students,
+      because we are juggling the complexities of daily life, academics,
+      relationships, and work.<br>
+      Amidst all this, we often forget how much we are doing for ourselves.
+      On this website, I present a plethora of options designed to help you pause,<br>
+      unwind, and prioritize yourself because you deserve it.
+      College life can be demanding, so through this website, I aim to provide you <br>
+      with valuable resources and ideas, all at one spot to make self-care a part of
+      your routine!</p>
+  </section>
+
+  <section class="resources">
+    <h2>Resources</h2>
+    <div class="activity-list">
+      <ul>
+        <li><a href="meditation.html">Meditation</a></li>
+        <li><a href="cooking.html">Cooking/Baking</a></li>
+        <li><a href="exercising.html">Exercising</a></li>
+      </ul>
+    </div>
+  </section>
+</body>
 
 </html>
